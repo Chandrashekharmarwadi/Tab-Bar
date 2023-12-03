@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class Status extends StatefulWidget {
+  const Status({super.key});
+
+  @override
+  State<Status> createState() => _StatusState();
+}
+
+class _StatusState extends State<Status> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(child: Text("Status",style: TextStyle(fontSize: 32,fontWeight: FontWeight.bold))),
+    );
+  }
+}
